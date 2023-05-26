@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <title>Movie suggestions</title>
+</head>
+
+<body>
+    <header>
+        <h1>Movie suggestions</h1>
+        <p id="procedure_text">Enter movie / tv show title keyword in search box and click search button</p><!--Ovde ide: procedura koja se menja, proverava koja je faza i pise sta sledece treba uraditi-->
+    </header>
+    <main>
+        <div class="search-box-container">
+            <div id="search_container_border">
+                <p class="search_title" id="search_title">ENTER MOVIE / TV SHOW KEYWORD</p>
+                <input type="text" spellcheck="false" class="search-box" id="search-box">
+                <button class="search-button" id="search-button">Search</button>
+            </div>
+
+        </div>
+        <div class="content-container">
+            <div class="selected-title-container">
+                <div id="selected-title_container_border">
+                <p class="selected_main_title" id="selected_main_title">SELECTED TITLE</p>
+                <label class="selected-title" id="selected-title"></label>
+                <button class="suggestions-button" id="suggestions-button">Suggestions</button>
+                <p class="imdb-button" id="imdb-button">IMDB</p>
+                </div>
+            </div>
+
+            <div class="suggestions-table-container" id="suggestions-table-container">
+                <div class="suggestions_table_container_border" id="suggestions_table_container_border">
+                <p class="suggestions_title" id="suggestions_title">SELECT SUGGESTED TITLE</p>
+                <table class="suggestions_table" id="suggestions_table">
+                    <colgroup>
+                        <col span="1" style="width: 100%;">
+                        <col span="1" style="width: 10%;">
+                        <col span="1" style="width: 0%;">
+                    </colgroup>
+                    <tbody>
+                        <tr>
+                            <td> </td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td> </td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div id="imdb_info" class="imdb_info">
+        <div class="imdb_info_content">
+          <span class="imdb_info-close">&times;</span>
+          <h2><span id="imdb_info-title"></span></h2>
+          <p><strong>Plot:</strong> <span id="imdb_info-plot"></span></p>
+          <p><strong>Director:</strong> <span id="imdb_info-director"></span></p>
+          <p><strong>Actors:</strong> <span id="imdb_info-actors"></span></p>
+          <p><strong>Genre:</strong> <span id="imdb_info-genre"></span></p>
+          <p><strong>Rating:</strong> <span id="imdb_info-rating"></span></p>
+          <p><strong>Trailer:</strong> <span id="imdb_info-trailer"><button id="watch_trailer" style="font-size: small;">Watch Trailer</button></span></p>
+
+          <p><strong></strong> <span id="imdb_info-cover"></span></p>
+        </div>
+      </div>
+
+
+    <script src="assets/script/script.js"></script>
+</body>
+
+
+</html>
